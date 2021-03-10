@@ -18,19 +18,6 @@ import ie.wit.models.FoodModel
 import kotlinx.android.synthetic.main.fragment_basket.*
 import kotlinx.android.synthetic.main.fragment_basket.view.*
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 class BasketFragment : Fragment() {
 
     lateinit var app: FYWApp
@@ -43,7 +30,7 @@ class BasketFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ) {
+    ): View? {
         // Inflate the layout for this fragment
         var root = inflater.inflate(R.layout.fragment_basket, container, false)
 
@@ -51,42 +38,10 @@ class BasketFragment : Fragment() {
         root.recyclerView.adapter = FAdapter(app.deliveriesStore.findAll())
 
 
-        //handles the swipe function on recycler view
-        //Incompleete
-        //https://www.youtube.com/watch?v=5JsLk8IkhXE
-        // val itemSwipe: object :ItemTouchHelper.SimpleCallback(0,ItemTouchHelper.RIGHT){
-        //    override fun onMove(recyclerView:RecyclerView,viewHolder: RecyclerView.ViewHolder){
-        // return false
-
-}
-           // override fun onSwiped(viewHolder: RecyclerView.ViewHolder,direction:Int){
-             //   showDialog()
-         //   }
-       // }
-     //   val swap =ItemTouchHelper(itemSwipe)
-     //   swap.attachToRecyclerView(recyclerView)
-     //   return root
- //   }
-
-
-    //shows dialog for deleting item or not
- /*fun showDialog(viewHolder: RecyclerView.ViewHolder){
-val builder =AlertDialog.Builder(activity)
-    builder.setTitle("DeleteItem")
-    builder.setMessage("Are you sure you want to delete item.")
-    builder.setPositiveButton("Confirm"){
-        dialog, which ->
-        val position =viewHolder.adapterPosition
-
+        return root
     }
-    builder.setNegativeButton("Cancel"){
-        dialog,which->
-        viewHolder.adapterPosition
 
-    }
-    builder.show()
-}
-*/
+
 
 
 

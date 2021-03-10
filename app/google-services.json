@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "3536971701",
+    "project_id": "kellyfirebase-9e929",
+    "storage_bucket": "kellyfirebase-9e929.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3536971701:android:56bbe6105e5726ff79dbfc",
+        "android_client_info": {
+          "package_name": "com.example.fooddeliveryfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3536971701-j0crqilmefmrf4d5jpubcda60ssffuom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8bMPcBtuKi77uh7VEthcnQxmKJtbk4EA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3536971701-j0crqilmefmrf4d5jpubcda60ssffuom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -33,6 +33,8 @@ class FAdapter constructor(private var deliveries: List<FoodModel>)
         fun bind(buy: FoodModel) {
             itemView.paymentamount.text = buy.amount.toString()
             itemView.paymentmethod.text = buy.paymentmethod
+
+            //Todo : add here name of burger price etc.
             itemView.imageIcon.setImageResource(R.mipmap.ic_launcher_round)
         }
     }

@@ -194,5 +194,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.231" />
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="399dp"
+        android:layout_height="171dp"
+        app:layout_constraintBottom_toTopOf="@+id/paymentAmount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.147" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

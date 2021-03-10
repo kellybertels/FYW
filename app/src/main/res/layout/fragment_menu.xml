@@ -6,6 +6,7 @@ android:layout_width="match_parent"
 android:layout_height="wrap_content"
 android:padding="4dp">
 
+    ///this version of casrdview material is incompatible with latest version of gradle, Ill fix it adding manually the cardview later
 <com.google.android.material.card.MaterialCardView
     android:id="@+id/ingredients_cardView"
     android:layout_width="match_parent"

@@ -27,6 +27,17 @@ class FMemStore : FoodStore {
             logAll()
         }
 
+/*
+    override fun update(donation: FoodModel) {
+
+    }
+
+    override fun delete(donation: FoodModel) {
+        deliveries.remove(donation)
+        logAll()
+    }
+    */
+
         fun logAll() {
             Log.v("Donate","** deliveries List **")
             deliveries.forEach { Log.v("Donate","${it}") }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2196F3</color>
-    <color name="colorPrimaryDark">#0368B9</color>
-    <color name="colorAccent">#034F8F</color>
+    <color name="colorPrimary">#4BC650</color>
+    <color name="colorPrimaryDark">#65CA49</color>
+    <color name="colorAccent">#188F03</color>
     <color name="ic_launcher_homer_background">#FFFFFF</color>
 </resources>

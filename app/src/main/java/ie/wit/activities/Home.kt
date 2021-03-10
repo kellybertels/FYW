@@ -15,6 +15,7 @@ import ie.wit.fragments.FoodFragment
 import ie.wit.fragments.BasketFragment
 //import ie.wit.fragments.MenuFragment
 import ie.wit.fragments.BlankFragment
+import ie.wit.fragments.MenuFragment
 import kotlinx.android.synthetic.main.app_bar_home.*
 import kotlinx.android.synthetic.main.home.*
 import org.jetbrains.anko.toast
@@ -57,8 +58,8 @@ class Home : AppCompatActivity(),
         when (item.itemId) {
             R.id.nav_donate -> navigateTo(FoodFragment.newInstance())
             R.id.nav_basket -> navigateTo(BasketFragment.newInstance())
-           // R.id.nav_favourites -> navigateTo(MenuFragment.newInstance())
-        R.id.nav_favourites -> navigateTo(BlankFragment.newInstance())
+            R.id.nav_favourites -> navigateTo(MenuFragment.newInstance())
+            R.id.nav_aboutus -> navigateTo(BlankFragment.newInstance())
             else -> toast("You Selected Something Else")
         }
         drawerLayout.closeDrawer(GravityCompat.START)
